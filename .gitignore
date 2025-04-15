@@ -1,0 +1,13 @@
+__pycache__/
+*.xml
+*.pyc
+*.xml
+# Virtual environment folder
+venv/
+env/
+.venv/
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
