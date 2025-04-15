@@ -1,0 +1,31 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore Flask instance folder (if used)
+instance/
+
+# Ignore log files
+*.log
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-specific files (optional, if not needed)
+docker-compose.yml
+Dockerfile
+
+# Ignore the git directory
+.git/
+
