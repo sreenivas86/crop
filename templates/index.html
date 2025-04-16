@@ -116,34 +116,34 @@
               return new Promise(resolve => setTimeout(resolve, ms));
              }
             function updateTime(i){
-              $('#time').load('http://localhost:5000/ticker/'+0+ '/' + i);
+              $('#time').load('/ticker/'+0+ '/' + i);
             }
 
             function updateCrop1(i){
-              $('#crop1').load('http://localhost:5000/ticker/'+ 1 + '/' + i);
+              $('#crop1').load('/ticker/'+ 1 + '/' + i);
             }
 
             function updatePrice1(i){
-              $('#price1').load('http://localhost:5000/ticker/'+ 2 + '/' + i);
+              $('#price1').load('/ticker/'+ 2 + '/' + i);
             }
 
             function updateChange1(i){
               $("#change1").attr("src","../static/gain-icon.png");
-              $('#pos-change').load('http://localhost:5000/ticker/'+ 3 + '/'  + i);
+              $('#pos-change').load('/ticker/'+ 3 + '/'  + i);
 
             }
 
             function updateCrop2(i){
-              $('#crop2').load('http://localhost:5000/ticker/'+ 4 + '/'  + i);
+              $('#crop2').load('/ticker/'+ 4 + '/'  + i);
             }
 
             function updatePrice2(i){
-              $('#price2').load('http://localhost:5000/ticker/'+ 5 + '/'  + i);
+              $('#price2').load('/ticker/'+ 5 + '/'  + i);
             }
 
             function updateChange2(i){
               $("#change2").attr("src","../static/loss-icon.png");
-              $('#neg-change').load('http://localhost:5000/ticker/'+ 6 + '/'  + i);
+              $('#neg-change').load('/ticker/'+ 6 + '/'  + i);
 
             }
           </script>
@@ -193,7 +193,7 @@
   <h5>Explore by commodity</h5>
   <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/paddy" style="color: #000000">
+      <a href="/commodity/paddy" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -207,7 +207,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/wheat" style="color: #000000">
+      <a href="/commodity/wheat" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -220,7 +220,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/barley" style="color: #000000">
+      <a href="/commodity/barley" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -233,7 +233,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/soyabean" style="color: #000000">
+      <a href=" /commodity/soyabean" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -249,7 +249,7 @@
   </div>
     <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/cotton" style="color: #000000">
+      <a href=" /commodity/cotton" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -263,7 +263,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/copra" style="color: #000000">
+      <a href=" /commodity/copra" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -276,7 +276,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/groundnut" style="color: #000000">
+      <a href=" /commodity/groundnut" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -289,7 +289,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/rape" style="color: #000000">
+      <a href=" /commodity/rape" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -305,7 +305,7 @@
   </div>
     <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/sesamum" style="color: #000000">
+      <a href=" /commodity/sesamum" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -319,7 +319,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/gram" style="color: #000000">
+      <a href=" /commodity/gram" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -332,7 +332,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/sugarcane" style="color: #000000">
+      <a href=" /commodity/sugarcane" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -345,7 +345,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/arhar" style="color: #000000">
+      <a href=" /commodity/arhar" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -361,7 +361,7 @@
   </div>
     <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/ragi" style="color: #000000">
+      <a href=" /commodity/ragi" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -375,7 +375,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/maize" style="color: #000000">
+      <a href=" /commodity/maize" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -388,7 +388,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/moong" style="color: #000000">
+      <a href=" /commodity/moong" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -401,7 +401,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/masoor" style="color: #000000">
+      <a href=" /commodity/masoor" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -417,7 +417,7 @@
   </div>
     <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/urad" style="color: #000000">
+      <a href=" /commodity/urad" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -431,7 +431,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/jute" style="color: #000000">
+      <a href=" /commodity/jute" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -444,7 +444,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/niger" style="color: #000000">
+      <a href=" /commodity/niger" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -457,7 +457,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/safflower" style="color: #000000">
+      <a href=" /commodity/safflower" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -473,7 +473,7 @@
   </div>
     <div class="row">
     <div class="col s3">
-      <a href="http://localhost:5000/commodity/sunflower" style="color: #000000">
+      <a href=" /commodity/sunflower" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -487,7 +487,7 @@
     </a>
     </div>
      <div class="col s3">
-      <a href="http://localhost:5000/commodity/jowar" style="color: #000000">
+      <a href=" /commodity/jowar" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">
@@ -500,7 +500,7 @@
       </div>
     </a>
     </div> <div class="col s3">
-      <a href="http://localhost:5000/commodity/bajra" style="color: #000000">
+      <a href=" /commodity/bajra" style="color: #000000">
       <div class="card grey lighten-4">
         <div class="card-content row valign-wrapper">
           <div class="col s3">

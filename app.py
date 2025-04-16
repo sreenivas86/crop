@@ -18,7 +18,7 @@ import random
 app = Flask(__name__)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
-cors = CORS(app, resources={r"/ticker": {"origins": "http://localhost:port"}})
+cors = CORS(app)#, resources={r"/ticker": {"origins": "http://localhost:port"}})
 
 commodity_dict = {
     "arhar": "static/Arhar.csv",
